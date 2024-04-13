@@ -33,6 +33,7 @@ public class ReadExcelUsingWorkbookFactory {
 			// Gets the number of defined cells (NOT number of cells in the actual
 			// row!).That is to say if only columns 0,4,5 have values then there would be 3
 			int columnCount = r.getPhysicalNumberOfCells();
+			System.out.println("total columnCount in sheet is : " + columnCount);
 			// Iterating columns
 			for (int j = 0; j < columnCount; j++) {
 				Cell c = r.getCell(j);
