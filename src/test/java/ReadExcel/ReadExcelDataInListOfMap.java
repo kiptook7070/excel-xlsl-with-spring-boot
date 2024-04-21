@@ -38,7 +38,6 @@ public class ReadExcelDataInListOfMap {
 				String fieldValue = r.getCell(i).getStringCellValue();
 				// Add data in map
 				data.put(fieldName, fieldValue);
-				
 			}
 			// Add map to list after each iteration
 			dataList.add(data);
